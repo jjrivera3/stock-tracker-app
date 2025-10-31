@@ -19,7 +19,7 @@ const NavItems = () => {
         <li key={href}>
           <Link
             href={href}
-            className={`hover:text-yellow-500 tranistion-colors ${
+            className={`hover:text-yellow-500 transition-colors ${
               isActive(href) ? "text-gray-100" : ""
             }`}
           >
