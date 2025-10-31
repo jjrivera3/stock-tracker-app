@@ -21,11 +21,11 @@ const Home = () => {
             height={600}
           />
         </div>
-        <div className="md-col-span xl:col-span-2">
+        <div className="md-col-span-1 xl:col-span-2">
           <TradingViewWidget
             title="Stock Heat Map"
             scriptUrl={`${scriptUrl}stock-heatmap.js`}
-            config={MARKET_OVERVIEW_WIDGET_CONFIG}
+            config={HEATMAP_WIDGET_CONFIG}
             height={600}
           />
         </div>
